@@ -24,7 +24,7 @@ def operaciones_dolar():
     elif dolar_op ==2:
         print('Esta convirtiendo de peso dominicano a dolar')
         cantidad = int(input('Ingrese la cantidad que desea convertir: '))
-        total = float(cantidad*dolar)
+        total = float(cantidad/dolar)
         print('sus dolares son: {} pesos dominicanos '.format(total) )
         print('Desea volver al inicio?')
         print ('1.SI         2.NO')

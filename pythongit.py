@@ -1,4 +1,4 @@
-
+import os 
 dolar = float(58.56)
 euro = float(66.86)
 
@@ -13,6 +13,7 @@ def peso_a_dolar():
     print ('1.SI         2.NO')
     opcion2= int(input('Ingrese la opcion deseada: '))
     if opcion2 == 1:
+        os.system("cls")
         run()
     elif opcion2 ==2:
         exit()

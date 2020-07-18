@@ -5,18 +5,38 @@ euro = float(66.8)
 
 
 
-def peso_a_dolar():
-    cantidad = int(input('Ingrese la cantidad que desea convertir: '))
-    total = float(cantidad*dolar)
-    print('sus dolares son: {} pesos dominicanos '.format(total) )
-    print('Desea volver al inicio?')
-    print ('1.SI         2.NO')
-    opcion2= int(input('Ingrese la opcion deseada: '))
-    if opcion2 == 1:
-        os.system("cls")
-        run()
-    elif opcion2 ==2:
-        exit()
+def operaciones_dolar():
+    print('1.DOLAR A PESO              2.PESO A DOLAR')
+    dolar_op = int(input("Ingrese la operacion que desea realizar: "))
+    if dolar_op == 1:
+        print('Esta convirtiendo de dolar a peso dominicano')
+        cantidad = int(input('Ingrese la cantidad que desea convertir: '))
+        total = float(cantidad*dolar)
+        print('sus dolares son: {} pesos dominicanos '.format(total) )
+        print('Desea volver al inicio?')
+        print ('1.SI         2.NO')
+        opcion2= int(input('Ingrese la opcion deseada: '))
+        if opcion2 == 1:
+            os.system("cls")
+            run()
+        elif opcion2 ==2:
+            exit()
+    elif dolar_op ==2:
+          print('Esta convirtiendo de peso dominicano a dolar')
+        cantidad = int(input('Ingrese la cantidad que desea convertir: '))
+        total = float(dolar*cantidad)
+        print('sus dolares son: {} pesos dominicanos '.format(total) )
+        print('Desea volver al inicio?')
+        print ('1.SI         2.NO')
+        opcion2= int(input('Ingrese la opcion deseada: '))
+        if opcion2 == 1:
+            os.system("cls")
+            run()
+        elif opcion2 ==2:
+            exit()
+        
+        
+
 
 
 
@@ -32,7 +52,7 @@ def run():
     print("4.Euro a peso dominicano")
     opcion = int(input("Ingresa la opcion: "))
     if opcion == 1:
-        peso_a_dolar()
+        operaciones_dolar()
 
     #elif opcion == 2:
         #peso_a_euro()

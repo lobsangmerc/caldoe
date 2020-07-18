@@ -1,6 +1,6 @@
 import os 
-dolar = float(58.56)
-euro = float(66.86)
+dolar = float(58.5)
+euro = float(66.8)
 
 
 

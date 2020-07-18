@@ -38,7 +38,7 @@ def operaciones_dolar():
         
 
 def operaciones_euro():
-     print('1.EURO A PESO              2.PESO A EURO')
+    print('1.EURO A PESO              2.PESO A EURO')
     dolar_op = int(input("Ingrese la operacion que desea realizar: "))
     if dolar_op == 1:
         print('Esta convirtiendo de euro a peso dominicano')

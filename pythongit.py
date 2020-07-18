@@ -9,7 +9,13 @@ def peso_a_dolar():
     cantidad = int(input('Ingrese la cantidad que desea convertir: '))
     total = float(cantidad*dolar)
     print(total)
-
+    print('Desea volver al inicio?')
+    print ('1.SI         2.NO')
+    opcion2= int(input('Ingrese la opcion deseada: '))
+    if opcion2 == 1:
+        run()
+    elif opcion2 ==2:
+        exit()
 
 
 

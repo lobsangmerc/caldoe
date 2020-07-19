@@ -6,7 +6,7 @@ euro = float(66.8)
 
 
 def operaciones_dolar():
-    print('1.DOLAR A PESO              2.PESO A DOLAR')
+    print('1.DOLAR A PESO11111              2.PESO A DOLAR')
     dolar_op = int(input("Ingrese la operacion que desea realizar: "))
     if dolar_op == 1:
         print('Esta convirtiendo de dolar a peso dominicano')

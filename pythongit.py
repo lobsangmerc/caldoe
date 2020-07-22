@@ -74,7 +74,7 @@ def operaciones_euro():
 
 
 def run():
-    print("Esta es una calculadora para divisas")
+    print("Esta es una calculadora para divisas Hoola linux")
     print("1.Operaciones con dolares")
     print("2.Operaciones con Euros")
     opcion = int(input("Ingresa la opcion: "))
